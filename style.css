@@ -1,0 +1,195 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #7e5252; 
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    
+    
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #c49d9d;
+    color: black;
+  }
+ 
+  body{
+    
+    background: #E4ccc0;
+    background-size: cover;   
+}
+
+ nav{
+  border: 0px transparent;
+  border-radius:10px;
+  padding:60px;
+  left: 100%;
+ 
+  }
+  
+  .container{
+    left: 100px;
+    width: 350px;
+    height: 100px;
+    background-size: cover;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    background-color: #7e5252;
+    text-align: center;
+   background-position: top center;
+   display: inline-block;
+   position:relative;
+   animation: myfirst 6s 2;
+   animation-direction: alternate; 
+ 
+   }
+   @keyframes myfirst {
+
+    25%  {background:#7e5252;top: 200px; top: 0px;}
+    50%  {background:#c49d9d; top: 200px; top: 200px;}
+    75%  {background: #7e5252; top: 0px; top: 200px;}
+    100% {background:   #c49d9d; top: 0px; top: 0px;}
+  }
+
+   span{
+    float: right;
+   }
+
+  img{
+    border: 3px solid  #7e5252;
+    } 
+    .blog{
+    
+      width: 600px;
+      height: 520px;
+      background-size: cover;
+      color: white;
+      margin: 20px;
+      padding: 30px;
+      background-color: #7e5252;
+      text-align: center;
+     background-position: top left;
+     display: inline-block;
+     position:absolute;
+     left: 759px;
+     bottom: 36px;
+     animation: myfirst2 6s 2;
+     animation-direction: alternate; 
+    }
+    @keyframes myfirst2 {
+
+      25%  {background:#7e5252; right: 200px; left:0px;}
+      50%  {background:#c49d9d; right: 200px; right: 200px;}
+      75%  {background: #7e5252; right: 0px; right: 200px;}
+      100% {background:   #c49d9d; right: 0px; right: 0px;}
+    }
+    .cont{
+      position:absolute;
+     right: 859px;
+     bottom: 50px;
+    }
+    .deal{
+      position:absolute;
+     right: 72%;
+     bottom: 260px;
+    }
+    .off{
+      position:absolute;
+     left: 72%;
+     bottom: 260px;
+    }
+    .sale{
+      position:absolute;
+     left: 36%;
+     bottom: 260px;
+    }
+
+    .style1{
+      position:absolute;
+     left: 72%;
+     bottom: 260px;
+    }
+    .style2{
+      position:absolute;
+     left: 72%;
+     bottom: 260px;
+    }
+
+    .center{
+      position:absolute;
+      left: 100px;
+      flex-direction: row;
+      
+    }
+    
+    .login-page {
+      width: 360px;
+      padding: 8% 0 0;
+      margin: auto;
+     color: white;
+    }
+    .login-page .form .login{
+      margin-top: -31px;
+    margin-bottom: 26px;
+    }
+    .form {
+      position: relative;
+      z-index: 1;
+      background: #8c6161;
+      max-width: 360px;
+      margin: 0 auto 100px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    .form input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    .form button {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background-color:#7e5252;
+      background-image: linear-gradient(45deg,#6f4c4c,#d39595);
+      width: 100%;
+      border: 0;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer;
+    }
+    .form .message {
+      margin: 15px 0 0;
+      color: white;
+      font-size: 15px;
+    }
+    .form .message a {
+      color: snow;
+      text-decoration: none;
+    }
+    .containers {
+      position: relative;
+      z-index: 1;
+      max-width: 300px;
+      margin: 0 auto;
+    }  
